@@ -10,7 +10,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace ApolloConfigurationDemo
+namespace ConfigurationDemo_Apollo
 {
     public class Startup
     {

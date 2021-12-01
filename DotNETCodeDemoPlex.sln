@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyConfigurationDemo", "MyConfigurationDemo\MyConfigurationDemo.csproj", "{3D873CE5-6F4A-400D-A64B-ACC19D2E4340}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConfigurationDemo", "MyConfigurationDemo\ConfigurationDemo.csproj", "{3D873CE5-6F4A-400D-A64B-ACC19D2E4340}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApolloConfigurationDemo", "ApolloConfigurationDemo\ApolloConfigurationDemo.csproj", "{A77C08B9-FE3B-456E-903A-21A19DAAA18D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConfigurationDemo_Apollo", "ApolloConfigurationDemo\ConfigurationDemo_Apollo.csproj", "{A77C08B9-FE3B-456E-903A-21A19DAAA18D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

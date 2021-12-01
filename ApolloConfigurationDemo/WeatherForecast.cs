@@ -1,6 +1,6 @@
 using System;
 
-namespace ApolloConfigurationDemo
+namespace ConfigurationDemo_Apollo
 {
     public class WeatherForecast
     {

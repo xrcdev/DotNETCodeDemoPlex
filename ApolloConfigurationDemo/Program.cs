@@ -7,7 +7,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Com.Ctrip.Framework.Apollo.ConfigAdapter;
-namespace ApolloConfigurationDemo
+namespace ConfigurationDemo_Apollo
 {
     public class Program
     {
