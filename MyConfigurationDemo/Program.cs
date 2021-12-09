@@ -13,6 +13,7 @@ namespace DotNETCodeDemo
             //BaseConfigTest.OptionDITest();
             //BaseConfigTest.DITest_HotChange();
             BaseConfigTest.DIOption_Test();
+            SectionTest.GetTest();
             //BaseConfigTest.OptionDITest();
             Console.ReadLine();
         }

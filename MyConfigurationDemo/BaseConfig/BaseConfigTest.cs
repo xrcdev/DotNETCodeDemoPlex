@@ -14,6 +14,9 @@ using System.Threading;
 
 namespace ConfigurationDemo.BaseConfig
 {
+    /// <summary>
+    /// basic test
+    /// </summary>
     public class BaseConfigTest
     {
         public static void ReadTest()
