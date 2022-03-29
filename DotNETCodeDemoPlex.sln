@@ -7,6 +7,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConfigurationDemo", "MyConf
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConfigurationDemo_Apollo", "ApolloConfigurationDemo\ConfigurationDemo_Apollo.csproj", "{A77C08B9-FE3B-456E-903A-21A19DAAA18D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Packages", "Packages", "{B147352B-F712-4F82-8773-7655F5BA47EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication_AutoMapper", "WebApplication_AutoMapper\WebApplication_AutoMapper.csproj", "{5F9F443A-48F3-4CB4-9BEE-818FAB01E188}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,9 +25,16 @@ Global
 		{A77C08B9-FE3B-456E-903A-21A19DAAA18D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A77C08B9-FE3B-456E-903A-21A19DAAA18D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A77C08B9-FE3B-456E-903A-21A19DAAA18D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F9F443A-48F3-4CB4-9BEE-818FAB01E188}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F9F443A-48F3-4CB4-9BEE-818FAB01E188}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F9F443A-48F3-4CB4-9BEE-818FAB01E188}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F9F443A-48F3-4CB4-9BEE-818FAB01E188}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5F9F443A-48F3-4CB4-9BEE-818FAB01E188} = {B147352B-F712-4F82-8773-7655F5BA47EE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {509F90CD-499F-49B5-9B0F-97706ED88326}
