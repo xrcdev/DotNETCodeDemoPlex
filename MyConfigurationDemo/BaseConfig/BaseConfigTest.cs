@@ -19,6 +19,16 @@ namespace ConfigurationDemo.BaseConfig
     /// </summary>
     public class BaseConfigTest
     {
+
+        public static void ReadXmlTest()
+        {
+          
+            IConfigurationRoot configurationRoot = new ConfigurationBuilder()
+                            .AddXmlFile(@"C:\CommonConfig\CommonConfig.xml")   
+                           .Build();
+            Console.WriteLine("Key1=" + configurationRoot["Key1"]);
+
+        }
         public static void ReadTest()
         {
             var dicData = new Dictionary<string, string>() { { "Key1", "Value1" }, { "Key2", "Value2" } };
